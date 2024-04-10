@@ -1,4 +1,3 @@
-
 html {
 	color: #fff;
 	scroll-behavior: smooth;
@@ -106,8 +105,8 @@ body {
 }
 
 .home .container-foto img {
-    position: relative;
-    top: 7px;
+	position: relative;
+	top: 7px;
 	width: 100%;
 	border-radius: 50%;
 }
@@ -121,6 +120,7 @@ body {
 
 .projetos {
 	padding: 70px 0 70px;
+
 }
 
 .projetos .titulo {
@@ -148,6 +148,7 @@ body {
 
 .projetos .projeto.ativo {
 	display: block;
+	height: 400px;
 }
 
 .projetos .projeto img {

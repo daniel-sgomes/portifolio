@@ -1,14 +1,14 @@
 @media(max-width:1280px) {
-        .cabecalho{
-            padding: 30px;
-        }
-        
-        .home{
+    .cabecalho {
+        padding: 30px;
+    }
+
+    .home {
         flex-direction: column;
         align-items: center;
         margin: 50px 0;
         gap: 30px;
-        }
+    }
 
 
     .home .informacoes {
@@ -17,26 +17,29 @@
         align-items: center;
     }
 
-    .projetos .container-projetos{
+    .projetos .container-projetos {
         padding: 0 30px;
+        flex-wrap: wrap;
     }
 
 }
 
-@media(max-width:425px){
-    .home .informacoes h1{
+@media(max-width:425px) {
+    .home .informacoes h1 {
         font-size: 30px;
     }
 
-    .home .informacoes p{
+    .home .informacoes p {
         font-size: 16px;
     }
 
-    .home .container-foto img{
+    .home .container-foto img {
         max-width: 320px;
     }
 
-    .projetos{
+    .projetos {
         padding: 30px;
     }
+
+
 }
